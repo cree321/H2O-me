@@ -1,0 +1,19 @@
+/* Color Palette: https://coolors.co/cdc8e9-9a86d1-6a6ab8-2c53a7-19379e */
+:root {
+  --periwinkle: #CDC8E9;
+  --tropical-indigo: #9A86D1;
+  --slate-blue: #6A6AB8;
+  --sapphire: #2C53A7;
+  --egyptian-blue: #19379E;
+}
+
+@supports (color: lch(0% 0 0)) {
+  :root {
+    --periwinkle: lch(81.8% 17.07 292.58);/*periwinkle*/
+    --tropical-indigo: lch(60.02% 41.34 298.8);/*tropical-indigo*/
+    --slate-blue: lch(47.55% 44.63 290.25);/*slate-blue*/
+    --sapphire: lch(36.18% 51.22 280.87);/*sapphire*/
+    --egyptian-blue: lch(26.81% 64.02 290.01);/*egyptian-blue*/
+  }
+}
+
